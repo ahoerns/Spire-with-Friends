@@ -193,9 +193,6 @@ public class NetworkHelper {
 				boolean hardmode = data.getInt(32)>0 ? true : false;
 				NewMenuButtons.newGameScreen.hardToggle.setTicked(hardmode);
 
-				boolean blackout = data.getInt(32)>0 ? true : false;
-				NewMenuButtons.newGameScreen.blackoutToggle.setTicked(blackout);
-
 				// seed
 				Settings.seed = data.getLong(36);
 
